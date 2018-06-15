@@ -8,6 +8,10 @@ import java.util.function.Function;
 /**
  * An example of Builder pattern with defined order of building and optional items.
  *
+ * <p>
+ * Inspired by <a href="https://blog.jayway.com/2012/02/07/builder-pattern-with-a-twist/">this
+ * blogpost</a>.
+ * </p>
  */
 public class ClassToBuild<IN, K, OUT> {
 
@@ -49,6 +53,7 @@ public class ClassToBuild<IN, K, OUT> {
 
     // optional builders
     FinalBuilder<IN, K, OUT> withFirstOption();
+
     FinalBuilder<IN, K, OUT> withSecondOption();
 
     // final method
