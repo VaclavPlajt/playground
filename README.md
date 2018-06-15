@@ -1,2 +1,2 @@
-# playground
-My personal playground.
+# My playground
+A collection of examples. 
